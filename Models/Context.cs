@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
-using Gerenciador.Models;
+using Models;
 using Gerenciador.Mappings;
 
-namespace Gerenciador.Models
+namespace Models
 {
     public class Context : DbContext
     {
