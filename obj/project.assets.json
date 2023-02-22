@@ -3463,7 +3463,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Bruno\\.nuget\\packages\\": {},
+    "C:\\Users\\Rodrgo\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
@@ -3472,14 +3472,14 @@
       "projectUniqueName": "D:\\_Projetos\\Gerenciador\\Gerenciador.csproj",
       "projectName": "Gerenciador",
       "projectPath": "D:\\_Projetos\\Gerenciador\\Gerenciador.csproj",
-      "packagesPath": "C:\\Users\\Bruno\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\Rodrgo\\.nuget\\packages\\",
       "outputPath": "D:\\_Projetos\\Gerenciador\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Bruno\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Rodrgo\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -3547,7 +3547,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
       }
     }
   }

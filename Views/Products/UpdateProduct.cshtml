@@ -1,0 +1,50 @@
+@model Models.Product
+
+    @{
+        ViewData["Title"] = "Update products" + Model.Name;
+    }
+
+    <div class="container p-5">
+        <div class="row">
+            <div class="col-6 border border_light rounded p-5 shadow">
+                <h6>Update product @Model.Name</h6>
+                <hr/>
+
+                <form asp-action="UpdateProduct">
+                    <input hidden asp-for="ProductId"/>
+                    <div class="form-group">
+                        <label>Name</label>
+                        <input asp-for="Name" type="text" class="form-control form-control-sm">
+                    </div>
+
+                    <div class="form-group">
+                        <label>Quantity</label>
+                        <input asp-for="Quantity" type="number" class="form-control form-control-sm">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label>Price</label>
+                        <input asp-for="Price" step="0,01" type="text" class="form-control form-control-sm">
+                    </div>
+
+                    <div class="form-group">
+                        <label>Category</label>
+                        <select asp-for="CategoryId" asp-items="ViewBag.CategoryId" class="form-control form-control-sm"></select>
+                    </div>
+
+                    <div class="container">
+                        <div class="row">
+                            <div>
+                                <button type="submit" class="btn btn-sm btn-outline-primary">
+                                    Salvar
+                                </button>
+                            </div>
+                            <div class="pl-1">
+                                <a class="btn btn-sm btn-light" asp-action="Index">Voltar</a>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>

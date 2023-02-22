@@ -1,0 +1,32 @@
+@model Models.Product
+
+@{
+    ViewData["Title"] = "Details and transactions product" + Model.Name;
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-10 border border-light rounded p-5">
+            <h5 class="text-primary"><strong>Details and transactions product @Model.Name></strong></h5>
+            <hr/>
+            <h6>Quantity - @Model.Quantity</h6>
+            <h6>Price - @Model.Price</h6>
+            <h6>Category - @Model.Category.Name</h6>
+            <hr/>
+
+            <div class="container border border-light rounded shadow p-5">
+                <div class="row">
+                    <div class="col-8">
+                        <h6>Transactions</h6>
+                    </div>
+                    <div class="col-4">
+                        <a asp-action="NewTransactions" asp-controller="Transactions" asp-route-productId="@Model.ProductId" class="btn btn-sm btn-outline-sucess"></a>
+                        New Transactions
+                    </div>
+                </div>
+            </div>
+            <hr/>
+            <@await Component.InvokeAsync("Transactions", @Model.ProductId);
+        </div>
+    </div>
+</div>
