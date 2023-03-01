@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Mvc.Rendering;
 
-namespace Gerenciador.Controllers
+namespace Controllers
 {
     public class ProductsController : Controller
     {

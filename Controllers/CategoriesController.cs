@@ -2,7 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 using Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace Gerenciador.Controllers
+namespace Controllers
 {
     public class CategoriesController : Controller
     {

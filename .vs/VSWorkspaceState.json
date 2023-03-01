@@ -2,8 +2,8 @@
   "ExpandedNodes": [
     "",
     "\\bin",
+    "\\ViewComponents",
     "\\wwwroot"
   ],
-  "SelectedNode": "\\Gerenciador.csproj",
   "PreviewInSolutionExplorer": false
 }

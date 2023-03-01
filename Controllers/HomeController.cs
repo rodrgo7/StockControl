@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Models;
 
-namespace Gerenciador.Controllers;
+namespace Controllers;
 
 public class HomeController : Controller
 {

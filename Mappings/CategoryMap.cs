@@ -2,7 +2,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using Models;
 
-namespace Gerenciador.Mappings
+namespace Mappings
 {
     public class CategoryMap : IEntityTypeConfiguration <Category>
     {
